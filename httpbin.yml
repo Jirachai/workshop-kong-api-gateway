@@ -1,0 +1,12 @@
+services:
+  api1:
+    image: kennethreitz/httpbin
+    restart: always
+
+  api2:
+    image: kennethreitz/httpbin
+    restart: always
+
+  api3:
+    image: kennethreitz/httpbin
+    restart: always
